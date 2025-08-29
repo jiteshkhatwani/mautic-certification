@@ -1,4 +1,4 @@
-# Certified Mautic Developer Curriculum
+# Certified Mautic Developer Curriculum - Complete
 
 ## Course Overview
 
@@ -31,8 +31,7 @@ Before diving into Mautic development, it's crucial to understand the technical 
 - Security considerations
 
 ### Official Reference Links
-- [Installation Requirements](https://docs.mautic.org)
-- [System Requirements](https://docs.mautic.org)
+- [Installation Requirements](https://devdocs.mautic.org/en/5.x/development-environment/getting_started.html)
 - [Mautic Official Website](https://mautic.org)
 
 ## Module 2: Setup and Installation using DDEV
@@ -55,8 +54,7 @@ DDEV provides a standardized, containerized development environment that ensures
 
 ### Official Reference Links
 - [DDEV Installation Guide](https://ddev.readthedocs.io)
-- [Local Development Setup](https://docs.mautic.org)
-- [DDEV Troubleshooting](https://ddev.readthedocs.io)
+- [Local Development Setup](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
 
 ## Module 3: Mautic Platform Walkthrough
 
@@ -78,9 +76,9 @@ Understanding the Mautic platform from a user perspective is essential for devel
 - User management and permissions
 
 ### Official Reference Links
-- [Mautic Platform Overview](https://docs.mautic.org)
-- [User Interface Guide](https://docs.mautic.org)
-- [Managing Contacts](https://docs.mautic.org)
+- [Getting Started](https://docs.mautic.org/en/5.x/getting_started/index.html)
+- [User Interface Guide](https://docs.mautic.org/en/5.x/contacts/index.html)
+- [Managing Contacts](https://docs.mautic.org/en/5.x/contacts/manage_contacts.html)
 
 ## Module 4: Configuring and Extending Mautic
 
@@ -102,9 +100,9 @@ Proper configuration is crucial for Mautic's performance and functionality. This
 - Multi-tenancy considerations
 
 ### Official Reference Links
-- [Configuration Settings](https://docs.mautic.org)
-- [Email Configuration](https://docs.mautic.org)
-- [System Configuration](https://docs.mautic.org)
+- [Configuration Settings](https://docs.mautic.org/en/5.x/configuration/settings.html)
+- [Email Configuration](https://docs.mautic.org/en/5.x/configuration/settings.html#email-settings)
+- [System Configuration](https://docs.mautic.org/en/5.x/configuration/index.html)
 
 ## Module 5: Developing with Mautic
 
@@ -126,9 +124,9 @@ Mautic is built on the Symfony framework, which provides a robust foundation for
 - Security and authentication
 
 ### Official Reference Links
-- [Developer Documentation Overview](https://devdocs.mautic.org)
-- [Plugin Development Guide](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
-- [Customizing Themes](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
+- [Developer Documentation Overview](https://devdocs.mautic.org/en/5.x/)
+- [Plugin Development Guide](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
+- [Mautic vs Symfony](https://devdocs.mautic.org/en/5.x/plugins/mautic_vs_symfony.html)
 
 ## Module 6: Mautic's API Overview
 
@@ -149,9 +147,9 @@ Mautic's API is a powerful tool for integrating with external systems and automa
 - API versioning and compatibility
 
 ### Official Reference Links
-- [API Configuration](https://devdocs.mautic.org/en/5.x/webhooks/events/index.html)
-- [API Documentation](https://devdocs.mautic.org)
-- [Authentication Setup](https://devdocs.mautic.org)
+- [API Configuration](https://docs.mautic.org/en/5.x/configuration/settings.html#api-settings)
+- [API Documentation](https://devdocs.mautic.org/en/5.x/components/api.html)
+- [REST API Reference](https://docs.mautic.org/en/5.x/rest_api/index.html)
 
 ## Module 7: Working with Mautic's REST API
 
@@ -173,8 +171,8 @@ Practical implementation of Mautic's REST API is essential for integrations and 
 - Error handling and debugging
 
 ### Official Reference Links
-- [API Documentation](https://devdocs.mautic.org)
-- [Authentication Guide](https://devdocs.mautic.org)
+- [REST API Documentation](https://docs.mautic.org/en/5.x/rest_api/index.html)
+- [Authentication Guide](https://docs.mautic.org/en/5.x/rest_api/authentication.html)
 - [GitHub Examples](https://github.com/mautic/api-library)
 
 ## Module 8: Building Custom API Endpoints
@@ -197,8 +195,8 @@ Sometimes the standard API endpoints aren't sufficient for specific use cases. T
 - Performance considerations
 
 ### Official Reference Links
-- [Developer Documentation](https://devdocs.mautic.org)
-- [API Development Guide](https://devdocs.mautic.org)
+- [API Development](https://devdocs.mautic.org/en/5.x/components/api.html)
+- [Plugin Development](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
 - [GitHub Repository](https://github.com/mautic/mautic)
 
 ## Module 9: Plugin Development
@@ -221,9 +219,9 @@ Plugins are the primary way to extend Mautic's functionality. This module covers
 - Distribution and packaging
 
 ### Official Reference Links
-- [Plugin Development](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
-- [Plugin Marketplace](https://www.mautic.org)
-- [Integration Testing](https://devdocs.mautic.org)
+- [Plugin Development](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
+- [Plugin Marketplace](https://docs.mautic.org/en/5.x/marketplace/marketplace.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
 
 ## Module 10: Introduction to Mautic Plugins
 
@@ -245,9 +243,9 @@ Before creating plugins, it's important to understand the existing plugin ecosys
 - Community plugins vs. commercial plugins
 
 ### Official Reference Links
-- [Plugin Documentation](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
-- [Mautic Marketplace](https://www.mautic.org)
-- [Knowledge Base](https://kb.mautic.org)
+- [Plugin Documentation](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
+- [Mautic Marketplace](https://docs.mautic.org/en/5.x/marketplace/marketplace.html)
+- [Plugin Resources](https://docs.mautic.org/en/5.x/plugins/plugin_resources.html)
 
 ## Module 11: Setting Up a Plugin Development Environment
 
@@ -269,9 +267,9 @@ A proper development environment is crucial for efficient plugin development. Th
 - Package management
 
 ### Official Reference Links
-- [Development Setup Guide](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
-- [GitHub Documentation](https://github.com/mautic/mautic)
-- [Developer Resources](https://devdocs.mautic.org)
+- [Development Environment](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
+- [Plugin Dependencies](https://devdocs.mautic.org/en/5.x/plugins/dependencies.html)
+- [Continuous Integration](https://devdocs.mautic.org/en/5.x/plugins/continuous-integration.html)
 
 ## Module 12: Creating Your First Mautic Plugin
 
@@ -293,9 +291,9 @@ This hands-on module walks through creating a complete plugin, from initial stru
 - Installation and activation
 
 ### Official Reference Links
-- [Plugin Development Tutorial](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
-- [Code Examples](https://github.com/mautic/mautic)
-- [Community Resources](https://www.mautic.org)
+- [Plugin Getting Started](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
+- [Plugin Config](https://devdocs.mautic.org/en/5.x/plugins/config.html)
 
 ## Module 13: Handling Plugin Updates and Maintenance
 
@@ -317,9 +315,9 @@ Long-term plugin maintenance requires proper update mechanisms and lifecycle man
 - Rollback strategies
 
 ### Official Reference Links
-- [Plugin Maintenance Guide](https://devdocs.mautic.org/en/latest/marketplace/listing.html)
-- [Version Management](https://devdocs.mautic.org)
-- [Best Practices](https://devdocs.mautic.org)
+- [Plugin Migration 4 to 5](https://devdocs.mautic.org/en/5.x/plugins/from-4-to-5.html)
+- [Marketplace Best Practices](https://devdocs.mautic.org/en/5.x/marketplace/best_practices.html)
+- [Plugin Installation](https://devdocs.mautic.org/en/5.x/plugins/installation.html)
 
 ## Module 14: Customizing the User Interface
 
@@ -341,9 +339,9 @@ User interface customization allows developers to create tailored experiences wi
 - Accessibility requirements
 
 ### Official Reference Links
-- [UI Customization Guide](https://devdocs.mautic.org/en/5.x/design/displaying_elements_based_on_user_permissions.html)
-- [Theme Development](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
-- [Design Resources](https://devdocs.mautic.org)
+- [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
+- [Theme Forms](https://devdocs.mautic.org/en/5.x/themes/forms.html)
+- [Design Permissions](https://devdocs.mautic.org/en/5.x/design/displaying_elements_based_on_user_permissions.html)
 
 ## Module 15: Mautic's Twig Templating Engine
 
@@ -365,9 +363,9 @@ Twig is the templating engine used throughout Mautic for rendering views and ema
 - Integration with Mautic's data
 
 ### Official Reference Links
-- [Template Development](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
+- [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
 - [Twig Documentation](https://twig.symfony.com)
-- [Customization Examples](https://devdocs.mautic.org)
+- [Theme System](https://devdocs.mautic.org/en/5.x/themes/system.html)
 
 ## Module 16: Customizing Mautic's Email and Landing Page Templates
 
@@ -389,9 +387,9 @@ Email and landing page templates are crucial for marketing campaigns. This modul
 - Cross-client compatibility
 
 ### Official Reference Links
-- [Email Templates](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
-- [Email Configuration](https://docs.mautic.org)
-- [GrapesJS Builder](https://devdocs.mautic.org/en/latest/themes/legacy.html)
+- [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
+- [Email Templates](https://docs.mautic.org/en/5.x/channels/emails.html)
+- [GrapesJS Builder](https://devdocs.mautic.org/en/5.x/themes/grapesjs.html)
 
 ## Module 17: Adding Custom JavaScript and CSS
 
@@ -413,9 +411,9 @@ Custom JavaScript and CSS allow for enhanced user experiences and specialized fu
 - Third-party library integration
 
 ### Official Reference Links
-- [Frontend Development](https://devdocs.mautic.org)
-- [Asset Management](https://devdocs.mautic.org)
-- [Performance Guide](https://devdocs.mautic.org)
+- [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
+- [Theme System](https://devdocs.mautic.org/en/5.x/themes/system.html)
+- [Frontend Assets](https://docs.mautic.org/en/5.x/configuration/settings.html)
 
 ## Module 18: Database and Entities
 
@@ -437,9 +435,9 @@ Database knowledge is fundamental for Mautic development. This module covers the
 - Backup and recovery considerations
 
 ### Official Reference Links
-- [Database Documentation](https://devdocs.mautic.org)
-- [Entity Reference](https://devdocs.mautic.org)
-- [Performance Guide](https://devdocs.mautic.org)
+- [Plugin Data](https://devdocs.mautic.org/en/5.x/plugins/data.html)
+- [Components Database](https://devdocs.mautic.org/en/5.x/components/database.html)
+- [Installation Database](https://docs.mautic.org/en/5.x/getting_started/requirements.html)
 
 ## Module 19: Understanding Mautic's Database Schema
 
@@ -461,9 +459,9 @@ A deep understanding of Mautic's database schema is essential for effective deve
 - Data archiving and cleanup
 
 ### Official Reference Links
-- [Segments Management](https://docs.mautic.org)
-- [Database Schema](https://devdocs.mautic.org)
-- [Contact Management](https://docs.mautic.org)
+- [Contact Management](https://docs.mautic.org/en/5.x/contacts/manage_contacts.html)
+- [Plugin Data](https://devdocs.mautic.org/en/5.x/plugins/data.html)
+- [Components Database](https://devdocs.mautic.org/en/5.x/components/database.html)
 
 ## Module 20: Working with Doctrine ORM in Mautic
 
@@ -485,9 +483,9 @@ Doctrine ORM is the database abstraction layer used in Mautic. Understanding Doc
 - Transaction management
 
 ### Official Reference Links
-- [Doctrine Integration](https://devdocs.mautic.org)
-- [ORM Guide](https://devdocs.mautic.org)
-- [Database Best Practices](https://devdocs.mautic.org)
+- [Plugin Data](https://devdocs.mautic.org/en/5.x/plugins/data.html)
+- [Components Database](https://devdocs.mautic.org/en/5.x/components/database.html)
+- [Doctrine Documentation](https://www.doctrine-project.org/projects/orm.html)
 
 ## Module 21: Creating Custom Entities
 
@@ -509,9 +507,9 @@ Custom entities allow developers to extend Mautic's data model for specific use 
 - Performance considerations
 
 ### Official Reference Links
-- [Entity Development](https://devdocs.mautic.org)
-- [Custom Entity Guide](https://devdocs.mautic.org)
-- [Development Examples](https://devdocs.mautic.org)
+- [Plugin Data](https://devdocs.mautic.org/en/5.x/plugins/data.html)
+- [Components Database](https://devdocs.mautic.org/en/5.x/components/database.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
 
 ## Module 22: Database Migrations and Schema Updates
 
@@ -533,9 +531,9 @@ Database migrations are essential for maintaining database schema consistency ac
 - Production deployment considerations
 
 ### Official Reference Links
-- [Migration Guide](https://devdocs.mautic.org)
-- [Schema Management](https://devdocs.mautic.org)
-- [Deployment Best Practices](https://devdocs.mautic.org)
+- [Plugin Data](https://devdocs.mautic.org/en/5.x/plugins/data.html)
+- [Plugin Installation](https://devdocs.mautic.org/en/5.x/plugins/installation.html)
+- [Components Database](https://devdocs.mautic.org/en/5.x/components/database.html)
 
 ## Module 23: Command Line Interface
 
@@ -557,9 +555,9 @@ Mautic's CLI provides powerful tools for administration, maintenance, and automa
 - Debugging and logging
 
 ### Official Reference Links
-- [CLI Commands](https://docs.mautic.org)
-- [Cron Jobs Setup](https://docs.mautic.org)
-- [Queue Management](https://docs.mautic.org)
+- [Cron Jobs](https://docs.mautic.org/en/5.x/setup/cron_jobs.html)
+- [Command Line](https://docs.mautic.org/en/5.x/configuration/command_line_interface.html)
+- [Queue Processing](https://docs.mautic.org/en/5.x/queue/index.html)
 
 ## Module 24: Introduction to Mautic CLI
 
@@ -581,9 +579,9 @@ The command line interface is essential for many Mautic operations, especially i
 - Security considerations
 
 ### Official Reference Links
-- [CLI Setup Guide](https://docs.mautic.org)
-- [Command Line Reference](https://docs.mautic.org)
-- [Administration Guide](https://docs.mautic.org)
+- [Command Line Interface](https://docs.mautic.org/en/5.x/configuration/command_line_interface.html)
+- [Cron Jobs Setup](https://docs.mautic.org/en/5.x/setup/cron_jobs.html)
+- [Queue Processing](https://docs.mautic.org/en/5.x/queue/index.html)
 
 ## Module 25: Automating Tasks with Mautic CLI
 
@@ -605,9 +603,9 @@ Automation is crucial for maintaining a healthy Mautic installation. This module
 - Error handling and recovery
 
 ### Official Reference Links
-- [Cron Jobs Configuration](https://docs.mautic.org)
-- [Command Line Interface](https://docs.mautic.org)
-- [Automation Tasks](https://docs.mautic.org)
+- [Cron Jobs Configuration](https://docs.mautic.org/en/5.x/setup/cron_jobs.html)
+- [Queue Management](https://docs.mautic.org/en/5.x/queue/index.html)
+- [Command Line Tasks](https://docs.mautic.org/en/5.x/configuration/command_line_interface.html)
 
 ## Module 26: Creating Custom CLI Commands
 
@@ -630,9 +628,9 @@ Custom CLI commands allow developers to create specialized automation tools tail
 - Testing custom commands
 
 ### Official Reference Links
-- [Custom Command Development](https://devdocs.mautic.org)
-- [CLI Architecture](https://devdocs.mautic.org)
-- [Development Examples](https://devdocs.mautic.org)
+- [Components Commands](https://devdocs.mautic.org/en/5.x/components/commands.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
+- [Symfony Console](https://symfony.com/doc/current/console.html)
 
 ## Module 27: Event Listeners and Subscribers
 
@@ -654,9 +652,9 @@ Mautic's event system provides a powerful way to extend functionality without mo
 - Best practices
 
 ### Official Reference Links
-- [Event System Guide](https://devdocs.mautic.org)
-- [Event Reference](https://devdocs.mautic.org)
-- [Development Patterns](https://devdocs.mautic.org)
+- [Event Listeners](https://devdocs.mautic.org/en/5.x/plugins/event_listeners.html)
+- [Components Events](https://devdocs.mautic.org/en/5.x/components/events.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
 
 ## Module 28: Understanding Mautic Events
 
@@ -678,9 +676,9 @@ Mautic dispatches numerous events throughout its operation. Understanding these 
 - Security considerations
 
 ### Official Reference Links
-- [Event Documentation](https://devdocs.mautic.org)
-- [Event Catalog](https://devdocs.mautic.org/en/5.x/webhooks/events/index.html)
-- [Integration Guide](https://devdocs.mautic.org)
+- [Components Events](https://devdocs.mautic.org/en/5.x/components/events.html)
+- [Webhook Events](https://devdocs.mautic.org/en/5.x/webhooks/events/index.html)
+- [Event Listeners](https://devdocs.mautic.org/en/5.x/plugins/event_listeners.html)
 
 ## Module 29: Creating Event Listeners
 
@@ -702,9 +700,9 @@ Event listeners provide a simple way to respond to specific events in Mautic. Th
 - Testing listeners
 
 ### Official Reference Links
-- [Event Listener Guide](https://devdocs.mautic.org)
-- [Listener Development](https://devdocs.mautic.org)
-- [Code Examples](https://devdocs.mautic.org)
+- [Event Listeners](https://devdocs.mautic.org/en/5.x/plugins/event_listeners.html)
+- [Components Events](https://devdocs.mautic.org/en/5.x/components/events.html)
+- [Plugin Structure](https://devdocs.mautic.org/en/5.x/plugins/structure.html)
 
 ## Module 30: Using Event Subscribers
 
@@ -726,9 +724,9 @@ Event subscribers provide a more organized way to handle multiple related events
 - Testing strategies
 
 ### Official Reference Links
-- [Event Subscriber Guide](https://devdocs.mautic.org)
-- [Subscriber Patterns](https://devdocs.mautic.org)
-- [Advanced Examples](https://devdocs.mautic.org)
+- [Event Listeners](https://devdocs.mautic.org/en/5.x/plugins/event_listeners.html)
+- [Components Events](https://devdocs.mautic.org/en/5.x/components/events.html)
+- [Plugin Getting Started](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
 
 ## Module 31: Email and Campaign Development
 
@@ -750,9 +748,9 @@ Email and campaigns are core features of Mautic. This module covers advanced dev
 - A/B testing implementation
 
 ### Official Reference Links
-- [Email Development](https://devdocs.mautic.org)
-- [Campaign Architecture](https://devdocs.mautic.org)
-- [Marketing Automation](https://docs.mautic.org)
+- [Campaigns](https://docs.mautic.org/en/5.x/campaigns/index.html)
+- [Email Channels](https://docs.mautic.org/en/5.x/channels/emails.html)
+- [Components Campaigns](https://devdocs.mautic.org/en/5.x/components/campaigns.html)
 
 ## Module 32: Customizing Email Templates
 
@@ -774,9 +772,9 @@ Email templates are crucial for effective marketing campaigns. This module cover
 - Performance considerations
 
 ### Official Reference Links
-- [Email Template Guide](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
-- [Template Development](https://devdocs.mautic.org/en/latest/themes/getting_started.html)
-- [Design Best Practices](https://devdocs.mautic.org)
+- [Themes Getting Started](https://devdocs.mautic.org/en/5.x/themes/getting_started.html)
+- [Email Templates](https://docs.mautic.org/en/5.x/channels/emails.html)
+- [GrapesJS Builder](https://devdocs.mautic.org/en/5.x/themes/grapesjs.html)
 
 ## Module 33: Developing Campaign Logic
 
@@ -798,9 +796,9 @@ Advanced campaign development requires understanding of workflow logic and decis
 - Analytics integration
 
 ### Official Reference Links
-- [Campaign Builder](https://docs.mautic.org)
-- [Creating Campaigns](https://docs.mautic.org)
-- [Campaign Troubleshooting](https://kb.mautic.org)
+- [Creating Campaigns](https://docs.mautic.org/en/5.x/campaigns/campaign_builder.html)
+- [Campaign Events](https://docs.mautic.org/en/5.x/campaigns/campaign_events.html)
+- [Components Campaigns](https://devdocs.mautic.org/en/5.x/components/campaigns.html)
 
 ## Module 34: Advanced Email and Campaign Customization
 
@@ -822,9 +820,9 @@ This module covers advanced techniques for customizing email and campaign functi
 - Security considerations
 
 ### Official Reference Links
-- [Advanced Customization](https://devdocs.mautic.org)
-- [Custom Actions](https://devdocs.mautic.org)
-- [Integration Guide](https://devdocs.mautic.org)
+- [Components Campaigns](https://devdocs.mautic.org/en/5.x/components/campaigns.html)
+- [Event Listeners](https://devdocs.mautic.org/en/5.x/plugins/event_listeners.html)
+- [Email Configuration](https://docs.mautic.org/en/5.x/configuration/settings.html#email-settings)
 
 ## Module 35: Testing and Debugging
 
@@ -846,9 +844,9 @@ Testing and debugging are crucial for maintaining high-quality Mautic installati
 - Continuous integration
 
 ### Official Reference Links
-- [Troubleshooting Guide](https://kb.mautic.org)
-- [Testing Environment Setup](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
-- [Update Troubleshooting](https://kb.mautic.org)
+- [Development Environment](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
+- [Continuous Integration](https://devdocs.mautic.org/en/5.x/plugins/continuous-integration.html)
+- [Troubleshooting](https://docs.mautic.org/en/5.x/troubleshooting/index.html)
 
 ## Module 36: Setting Up a Debugging Environment
 
@@ -870,9 +868,9 @@ A proper debugging environment is essential for efficient development and troubl
 - Remote debugging techniques
 
 ### Official Reference Links
-- [Debugging Setup](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
-- [Development Tools](https://devdocs.mautic.org)
-- [Troubleshooting Guide](https://kb.mautic.org)
+- [Development Environment](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
+- [Troubleshooting](https://docs.mautic.org/en/5.x/troubleshooting/index.html)
+- [Log Management](https://docs.mautic.org/en/5.x/troubleshooting/monitoring.html)
 
 ## Module 37: Writing Unit Tests for Mautic
 
@@ -894,9 +892,9 @@ Unit testing ensures code quality and prevents regressions. This module covers c
 - Test coverage analysis
 
 ### Official Reference Links
-- [Unit Testing Guide](https://devdocs.mautic.org)
-- [Testing Framework](https://devdocs.mautic.org)
-- [Quality Standards](https://devdocs.mautic.org)
+- [Continuous Integration](https://devdocs.mautic.org/en/5.x/plugins/continuous-integration.html)
+- [Testing Environment](https://devdocs.mautic.org/en/5.x/development-environment/environments.html)
+- [Plugin Development](https://devdocs.mautic.org/en/5.x/plugins/getting_started.html)
 
 ## Module 38: Testing API Endpoints and Plugins
 
@@ -918,49 +916,6 @@ API endpoints and plugins require specialized testing approaches. This module co
 - Test documentation
 
 ### Official Reference Links
-- [API Testing Guide](https://devdocs.mautic.org)
-- [Plugin Testing](https://devdocs.mautic.org)
-- [Integration Testing](https://devdocs.mautic.org)
-
-## Assessment and Certification
-
-### Certification Requirements
-- Complete all modules with passing grades
-- Pass the comprehensive certification exam (80 questions)
-- Complete a capstone project demonstrating practical skills
-- Maintain continuing education requirements
-
-### Exam Format
-**80 multiple-choice questions**
-- **Basic Configuration** (10% - 8 questions)
-- **Advanced Coding** (30% - 24 questions)
-- **Advanced Configuration** (30% - 24 questions)
-- **Situational Questions** (30% - 24 questions)
-
-### Continuing Education
-- Annual recertification required
-- Participation in Mautic community events
-- Contribution to open-source projects (optional)
-- Advanced specialization tracks available
-
-## Additional Resources
-
-### Official Documentation
-- [Mautic Documentation](https://docs.mautic.org)
-- [Installation Guide](https://docs.mautic.org)
-- [GitHub Documentation](https://github.com/mautic/mautic)
-- [Knowledge Base](https://kb.mautic.org)
-- [Official Website](https://mautic.org)
-
-### Community Resources
-- Mautic Community Forums
-- Developer Slack Channel
-- GitHub Issues and Discussions
-- Community Events and Meetups
-- Blog and Tutorial Resources
-
-### Support
-- Technical support through official channels
-- Community support forums
-- Professional services directory
-- Training and consulting resources
+- [Components API](https://devdocs.mautic.org/en/5.x/components/api.html)
+- [Continuous Integration](https://devdocs.mautic.org/en/5.x/plugins/continuous-integration.html)
+- [REST API Testing](https://docs.mautic.org/en/5.x/rest_api/index.html)
