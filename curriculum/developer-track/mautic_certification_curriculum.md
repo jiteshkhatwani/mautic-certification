@@ -132,7 +132,7 @@ Mautic is built on the Symfony framework, which provides a robust foundation for
 
 ### Learning Objectives
 - Understand Mautic's API architecture
-- Learn about authentication methods
+- Learn about authentication methodsgit 
 - Explore available API endpoints
 
 ### Context
